@@ -28,9 +28,7 @@
   margin: 0 auto 0;
 }
 .input {
-  /* width: 56%; */
   display: inline-block;
-  /* flex-grow: 1 */
 }
 .add-task__content {
   display: flex;
