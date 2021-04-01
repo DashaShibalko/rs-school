@@ -86,10 +86,8 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-.add-task__input:focus {
-  color: #333;
-}
-.task__edit-input:focus {
+.add-task__input:focus,
+.task__edit-input:focus  {
   color: #333;
 }
 
@@ -151,7 +149,8 @@
   display: none;
 }
 
-.incompleted-tasks__edit .task__edit-input {
+.incompleted-tasks__edit,
+.task__edit-input {
   display: inline-block;
   width: 224px
 }
