@@ -23,7 +23,7 @@
   .header { 
     text-align: center;
   }
-  
+
 }
 .tasks {
   display: block;
@@ -37,16 +37,16 @@
   display: flex;
 }
 .tasks__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .edit-task,
 .tasks__heading {
-  list-style:none;
+  list-style: none;
 }
 .input,
 .button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -148,14 +148,14 @@
 
 /* Edit Task */
 .task__edit-input {
-  display:none
+  display: none
 }
 
 .incompleted-tasks__edit .task__edit-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .incompleted-tasks__text {
-  display:none;
+  display: none;
 }
