@@ -126,7 +126,7 @@
   width: 226px;
 }
 .task__edit-input {
-  width: 226px
+  width: 226px;
 }
 .delete-task__button:hover {
   color: #CF2323;
@@ -148,7 +148,7 @@
 
 /* Edit Task */
 .task__edit-input {
-  display: none
+  display: none;
 }
 
 .incompleted-tasks__edit .task__edit-input {
