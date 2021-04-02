@@ -27,20 +27,21 @@
         <section class="incompleted-tasks">
           <h3 class="tasks__heading">Todo</h3>
           <ul class="incompleted-tasks__list tasks__list">
-            <li class="edit-task">
+            <li class="task">
               <input class="task__checkbox input" type="checkbox">
               <label class="task__text">Pay Bills</label>
-              <input class="task__edit-input input task__edit-input1" type="text">
+              <input class="task__edit-input input" type="text">
               <button class="edit-task__button button">Edit</button>
               <button class="delete-task__button button">
                 <img class="delete-task__image" src="./remove.svg" alt="remove-task">
               </button>
             </li>
-            <li class="edit-task incompleted-tasks__edit">
+            <li class="task edit-mode">
               <input class="task__checkbox input" type="checkbox">
-              <label class="task__text incompleted-tasks__text" >Go Shopping</label>
-              <input class="task__edit-input input" value="Go Shopping">
-              <button class="save-task__button button">Save</button>
+              <label class="task__text" >Go Shopping</label>
+              <input class="task__edit-input input" 
+                    type="text" value="Go Shopping">
+              <button class="edit-task__button button">Save</button>
               <button class="delete-task__button button">
                 <img class="delete-task__image" src="./remove.svg" alt="remove-task">
               </button>
@@ -50,10 +51,11 @@
         <section class="completed-tasks">
           <h3 class="tasks__heading">Completed</h3>
           <ul class="completed-tasks__list tasks__list">
-            <li class="edit-task">
+            <li class="task">
               <input class="task__checkbox input" type="checkbox" checked>
-              <label class="task__text completed-tasks__text">See the Doctor</label>
-              <input class="task__edit-input input task__edit-input1" type="text">
+              <label class="task__text">See the Doctor</label>
+              <input class="task__edit-input input completed-tasks__edit-input"
+                     type="text">
               <button class="edit-task__button button">Edit</button>
               <button class="delete-task__button button">
                 <img class="delete-task__image" src="./remove.svg" alt="remove-task">
